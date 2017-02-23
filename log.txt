@@ -1,0 +1,85 @@
+Failed in socket opening :[Errno 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+Proxy Server hostname :127.0.0.1 and server port no :8080
+The proxy server is ready to receive client requests 
+*******************************Client Details :**********************************
+
+Hostname :127.0.0.1
+Port :61220
+Socket family :2
+Socket type :0
+Protocol :0
+Timeout :None seconds.
+**********************************************************************************
+
+******Http request details for client with hostname 127.0.0.1 and port 61220*******
+GET /www.msn.com HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: en-US,en;q=0.8
+Cookie: PHPSESSID=vg1r0ckkk3flp22lck52o5mfd3; __qca=P0-207352062-1477689043237; _vpx=6PA7DThnDscA; _mkto_trk=id:458-RJT-465&token:_mch-localhost-1477689043345-44693; DefaultLocation=ZW4tdXN8MzIuNzIwfC05Ny4xNTd8QXJsaW5ndG9ufFRleGFzfFVuaXRlZCBTdGF0ZXN8VVN8NzYwMTN8LTYuMDA1
+
+Request length :685 bytes.
+*******************************************************************************************
+
+Data not available for the request in cache file.
+Start getting data from web server. 
+*******************************Web Server Details :**********************************
+
+Hostname :www.msn.com
+Port :80
+Socket family :2
+Socket type :0
+Protocol :0
+Timeout :5.0 seconds.
+**********************************************************************************
+
+ Server response length in bytes :49143
+End of getting data from web server. 
+Round trip time(RTT) for client hostname 127.0.0.1 and port 61220 is 5.70000004768 seconds from web server.
+Round trip time(RTT) for client hostname 127.0.0.1 and port 61222 is 22.4489998817 seconds from web server.
+*******************************Client Details :**********************************
+
+Hostname :127.0.0.1
+Port :61235
+Socket family :2
+Socket type :0
+Protocol :0
+Timeout :None seconds.
+**********************************************************************************
+
+******Http request details for client with hostname 127.0.0.1 and port 61235*******
+GET /www.msn.com HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: en-US,en;q=0.8
+Cookie: PHPSESSID=vg1r0ckkk3flp22lck52o5mfd3; __qca=P0-207352062-1477689043237; _vpx=6PA7DThnDscA; _mkto_trk=id:458-RJT-465&token:_mch-localhost-1477689043345-44693; DefaultLocation=ZW4tdXN8MzIuNzIwfC05Ny4xNTd8QXJsaW5ndG9ufFRleGFzfFVuaXRlZCBTdGF0ZXN8VVN8NzYwMTN8LTYuMDA1
+
+Request length :685 bytes.
+*******************************************************************************************
+
+Data available for the request in cache file.
+Start getting data from cache.
+*******************************Proxy Server Details :**********************************
+
+Hostname :127.0.0.1
+Port :8080
+Socket family :2
+Socket type :0
+Protocol :0
+Timeout :None
+**********************************************************************************
+
+Server response length in bytes :49143
+End getting data from web cache. 
+Round trip time(RTT) for client hostname 127.0.0.1 and port 61235 is 0.0699999332428 seconds from cache.
+Round trip time(RTT) for client hostname 127.0.0.1 and port 61236 is 52.6770000458 seconds from web server.
